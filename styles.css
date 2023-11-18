@@ -1,0 +1,27 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.header-logo {
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+a.header-logo {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
