@@ -11,13 +11,18 @@ body {
     gap: 10px;
 }
 
+.header-links li a, .footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header-logo {
     margin-right: auto;
     margin-left: 50px;
     font-size: 24px;
 }
 
-li.header-logo {
+.header-logo a {
     color: #F9FAF8;
 }
 
@@ -33,8 +38,30 @@ a {
 .section-1 {
     display: flex;
     flex: 1 1 0;
+    background-color: #1F2937;
 }
 
-.left-side {
-    
+.left-side p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+p.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.section-2, .section-3, .section-4.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4, .tools {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
 }
